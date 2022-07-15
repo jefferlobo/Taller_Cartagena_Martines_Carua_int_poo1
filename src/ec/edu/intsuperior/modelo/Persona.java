@@ -12,8 +12,8 @@ import java.util.Date;
  * @author jeffe
  */
 public class Persona {
-     
-    private String nombre1;
+    
+ private String nombre1;
     private String nombre2;
     private String apellido1;
     private String apellido2;
@@ -21,7 +21,8 @@ public class Persona {
     private Date   fechanacimeinto;
     private String correo;
 
-    public Persona(String nombre1, String nombre2, String apellido1, String apellido2, String dirreccion, Date fechanacimeinto, String correo) {
+    public Persona(String nombre1, String nombre2, String apellido1,
+            String apellido2, String dirreccion, Date fechanacimeinto, String correo) {
         this.nombre1 = nombre1;
         this.nombre2 = nombre2;
         this.apellido1 = apellido1;
@@ -32,7 +33,7 @@ public class Persona {
     }
 
     public Persona() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     public String getNombre1() {
@@ -90,8 +91,11 @@ public class Persona {
     public void setCorreo(String correo) {
         this.correo = correo;
     }
-    
-    
-    
-    
+
+    public Object getFechaNacimiento() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }
+     
+    

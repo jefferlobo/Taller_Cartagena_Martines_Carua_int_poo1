@@ -10,5 +10,8 @@ package ec.edu.intsuperior.controlador;
  * @author jeffe
  */
 public class controlador {
+    public controlador(){
     
+    
+    }
 }
